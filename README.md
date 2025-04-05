@@ -3,7 +3,7 @@
 This repository contains projects I completed as part of various freeCodeCamp certification tracks. These projects helped me practice HTML, CSS, JavaScript, and responsive web design principles.
 
 ## Certifications Covered
-- Responsive Web Design (4/5 completed)
+- Responsive Web Design (5/5 completed)
 - JavaScript Algorithms and Data Structures (0/5 completed)  
 - More projects will be added.. 
 
