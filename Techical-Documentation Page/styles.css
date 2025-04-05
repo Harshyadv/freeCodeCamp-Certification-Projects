@@ -1,0 +1,127 @@
+/* General Styling */
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+    background: #0b3d91;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation */
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 220px;
+    height: 100vh;
+    background: #1e56a0;
+    padding-top: 20px;
+    overflow-y: auto;
+}
+
+#navbar header {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 10px;
+    font-size: 1.2em;
+}
+
+#navbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#navbar ul li {
+    padding: 10px 0;
+}
+
+#navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    transition: background 0.3s ease;
+}
+
+#navbar ul li a i {
+    margin-right: 8px;
+}
+
+#navbar ul li a:hover {
+    background: #0b3d91;
+}
+
+/* Main Content */
+#main-doc {
+    margin-left: 240px;
+    padding: 20px;
+}
+
+/* Sections */
+.main-section {
+    background: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #1e56a0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Code Boxes */
+.code-box {
+    background: #f4f4f4;
+    padding: 15px;
+    border-left: 5px solid #0b3d91;
+    font-family: 'Roboto Mono', monospace;
+    overflow-x: auto;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    background: #1e56a0;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Resources Alignment Fix */
+#Resources {
+    margin-bottom: 50px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    #navbar {
+        width: 100%;
+        height: auto;
+        position: relative;
+        text-align: center;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #main-doc {
+        margin-left: 0;
+        padding: 10px;
+    }
+}
+

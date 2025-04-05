@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Technical Documentation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Roboto+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>JavaScript Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction"> Introduction</a></li>
+            <li><a class="nav-link" href="#Syntax"> Syntax</a></li>
+            <li><a class="nav-link" href="#Data_Types"> Data Types</a></li>
+            <li><a class="nav-link" href="#Functions"> Functions</a></li>
+            <li><a class="nav-link" href="#Objects"> Objects</a></li>
+            <li><a class="nav-link" href="#Events"> Events</a></li>
+            <li><a class="nav-link" href="#Resources"> Resources</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section id="Introduction" class="main-section">
+            <header>Introduction</header>
+            <p>JavaScript is a versatile, high-level programming language widely used in web development.</p>
+            <p>It allows developers to build interactive websites and applications.</p>
+            <p>JavaScript is primarily used for front-end web development but can also be used for back-end.</p>
+            <div class="code-box"><code>console.log("Welcome to JavaScript!");</code></div>
+            <ul>
+                <li>It is a dynamically typed language.</li>
+                <li>JavaScript is interpreted and executed in the browser.</li>
+            </ul>
+        </section>
+
+        <section id="Syntax" class="main-section">
+            <header>Syntax</header>
+            <p>JavaScript has a C-like syntax, making it familiar to developers with experience in languages like C++ or Java.</p>
+            <p>Variables are defined using `var`, `let`, or `const`.</p>
+            <div class="code-box"><code>let x = 10;</code></div>
+            <ul>
+                <li>JavaScript is case-sensitive.</li>
+                <li>Semicolons are optional but recommended.</li>
+            </ul>
+        </section>
+
+        <section id="Data_Types" class="main-section">
+            <header>Data Types</header>
+            <p>JavaScript supports both primitive and complex data types.</p>
+            <p>Primitive types include strings, numbers, and booleans.</p>
+            <div class="code-box"><code>let str = "Hello, World!";</code></div>
+            <ul>
+                <li>Primitive types: String, Number, Boolean, Undefined, Null, Symbol, BigInt.</li>
+                <li>Objects and arrays are reference types.</li>
+            </ul>
+        </section>
+
+        <section id="Functions" class="main-section">
+            <header>Functions</header>
+            <p>Functions allow code reuse and modular programming in JavaScript.</p>
+            <p>They can be declared using the `function` keyword.</p>
+            <div class="code-box"><code>function add(a, b) { return a + b; }</code></div>
+            <ul>
+                <li>Functions can return values.</li>
+                <li>They can be assigned to variables.</li>
+            </ul>
+        </section>
+
+        <section id="Objects" class="main-section">
+            <header>Objects</header>
+            <p>Objects store key-value pairs and can hold functions as methods.</p>
+            <p>They are fundamental in JavaScript for organizing data.</p>
+            <div class="code-box"><code>let user = { name: "John", age: 30 };</code></div>
+            <ul>
+                <li>Objects are created using curly braces `{}`.</li>
+                <li>They can contain nested objects and arrays.</li>
+            </ul>
+        </section>
+
+        <section id="Events" class="main-section">
+            <header>Events</header>
+            <p>Events allow JavaScript to respond to user interactions.</p>
+            <p>Common events include `click`, `mouseover`, and `keydown`.</p>
+            <div class="code-box"><code>document.getElementById("btn").onclick = function() { alert("Clicked!"); };</code></div>
+            <ul>
+                <li>Event listeners can be added using `addEventListener()`.</li>
+                <li>Events can be triggered manually using `dispatchEvent()`.</li>
+            </ul>
+        </section>
+
+        <section id="Resources" class="main-section">
+            <header>Resources</header>
+            <p>Here are some useful JavaScript resources:</p>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript" target="_blank">MDN Web Docs</a></li>
+                <li><a href="https://javascript.info/" target="_blank">The Modern JavaScript Tutorial</a></li>
+                <li><a href="https://www.freecodecamp.org/news/tag/javascript/" target="_blank">freeCodeCamp JavaScript Articles</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>Fonts used: <a href="https://fonts.google.com/specimen/Inter" target="_blank">Inter</a>, <a href="https://fonts.google.com/specimen/Roboto+Mono" target="_blank">Roboto Mono</a></p>
+    </footer>
+</body>
+</html>
+
